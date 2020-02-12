@@ -1,14 +1,14 @@
 <template>
     <body>
         <header>
-      <h1>Mintbean Chat Room</h1>
+      <h1>Chat Room</h1>
       Name: <input type="text" id="username" />
       <button id="logout" class="vertical-align" v-on:click="logout" type="button">Logout</button>
     </header>
     <section id="chatroom">
         <section id="feedback">
             <ul id="admin" style="list-style-type:none" >
-                <li> Welcome to Mintbean chat room, how can we help you ?</li>
+                <li> Welcome to chat room, how can we help you ?</li>
             </ul>
         </section>
         <section id="chat" style="list-style-type:none">
