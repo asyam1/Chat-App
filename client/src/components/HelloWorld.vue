@@ -57,7 +57,7 @@ export default {
             var btn = document.createElement("BUTTON");
             btn.innerHTML = "Like";
             node.appendChild(textnode);
-            node.appendChild(btn);
+            // node.appendChild(btn);
 
             document.getElementById("chat").appendChild(node);
         
